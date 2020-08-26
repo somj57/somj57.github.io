@@ -1,0 +1,23 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f8f3eb
+}
+
+hr {
+  background-color: white;
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: grey;
+  width: 30px;
+}
+
+h1 {
+  color: #66BFBF
+}
+
+h3 {
+  color: #66BFBF
+}

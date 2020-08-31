@@ -43,9 +43,9 @@ text-align: center;
  z-index:1;
 }
 .idog{
-  width: 80%;
+  width: 70%;
   padding-top: 10%;
-  padding-left: 15%;
+
   transform: rotate(25deg);
   position: absolute;
   z-index: -1;

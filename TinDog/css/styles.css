@@ -18,10 +18,10 @@ p{
   padding-left: 20%;
   padding-bottom: 5%;
 }
-.btn-download1{
-  text-align: center;
+/* .btn-download1{
+  text-align: center;margin: 1rem;
 
-}
+} */
 .Download-btn{
   margin: 1rem;
 }
@@ -42,13 +42,24 @@ p{
  z-index:1;
 }
 .idog{
-  width: 50%%;
+  width: 80%;
   padding-top: 10%;
   padding-left: 15%;
   transform: rotate(25deg);
   position: absolute;
   z-index: -1;
 }
+@media (max-width:990px) {
+  .idog{
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
 #features{
   padding: 7% 15%;
   background-color: #fff;

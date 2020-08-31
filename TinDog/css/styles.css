@@ -12,7 +12,7 @@ p{
 }
 .heading{
   font-family: 'Russo One', sans-serif;
-  font-size: 450%;
+  font-size: 4.5rem;
   line-height: 1.5;
   /* padding-top: 10%;
   padding-left: 10%;
@@ -144,11 +144,23 @@ text-align: center;
   background-color: #ff4c69;
   font-weight: bold;
   text-align: center;
-  font-size: 2rem;
-  padding: 1%;
+  padding: 2%;
+
 }
+.ending-footer{
+    margin: 80px;
+}
+.footer-heading{
+  font-family: 'Russo One', sans-serif;
+
+  font-size: 4vw;
+}
+
 #footer{
   text-align: center;
-  margin: 1%;
-  font-size: 30%;
+  padding: 80px;
+  line-height: 3;
+}
+.fa-icon{
+  margin: 30px;
 }

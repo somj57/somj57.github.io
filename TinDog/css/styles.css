@@ -144,24 +144,23 @@ text-align: center;
   background-color: #ff4c69;
   font-weight: bold;
   text-align: center;
-  padding: 2%;
+  padding: 7% 15%;
 
 }
-.ending-footer{
+/* .ending-footer{
     margin: 80px;
-}
-.footer-heading{
+} */
+.cta-heading{
   font-family: 'Russo One', sans-serif;
 
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 #footer{
   text-align: center;
-  padding: 80px;
-  line-height: 3;
-  font-size: 200%;
+  padding: 7% 15%;
+
 }
-.fa-icon{
-  margin: 30px;
+.social-icon{
+  margin: 20px 10px;
 }

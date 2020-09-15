@@ -1,1 +1,1 @@
-These are hosted sites threw github servers
+# Hosted Sites

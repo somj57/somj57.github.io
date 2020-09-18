@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>MD5 Hash Generator</title>
+</head>
+
+<body>
+  <script language="JavaScript" src="calcMD5.js"></script>
+  <!-- <form class="" action="" method="post">
+    Enter Your Password:- <input type="password" name="input" value="" size="60" ><br><br>
+    <input type="submit" name="Convert" value="Convert" onclick="hash.value = calcMD5(input.value)"><br><br>
+    Hashed Password : <input type="text" name="hash" value=""size = "60"><br><br>
+
+
+  </form> -->
+  <form>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <font color="blue" size="+1">Input:-</font>
+          </td>
+          <td> <input type="text" name="input" size="60"> </td>
+        </tr>
+        <tr>
+          <td>
+            <font color="blue" size="+1">Calculate:-</font>
+          </td>
+          <td>
+              <input type="button" value="MD5" onclick="hash.value = calcMD5(input.value).toUpperCase()">
+            </center>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <font color="blue" size="+1">Result:-</font>
+          </td>
+          <td> <input type="text" name="hash" size="60"> </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+
+</body>
+
+</html>

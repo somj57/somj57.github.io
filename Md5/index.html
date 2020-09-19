@@ -20,7 +20,7 @@
             <td>
               <font color="blue" size="+1">Input:-</font>
             </td>
-            <td> <input type="password" name="input" size="60"> </td>
+            <td> <input type="password" name="input" size="60" onkeyup="hash.value = calcMD5(input.value).toUpperCase()" > </td>
           </tr>
           <tr>
             <td>

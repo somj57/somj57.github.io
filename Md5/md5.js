@@ -1,14 +1,3 @@
-/*
- * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message
- * Digest Algorithm, as defined in RFC 1321.
- * Copyright (C) Paul Johnston 1999 - 2000.
- * Updated by Greg Holt 2000 - 2001.
- * See http://pajhome.org.uk/site/legal.html for details.
- */
-
-/*
- * Convert a 32-bit number to a hex string with ls-byte first
- */
 var hex_chr = "0123456789abcdef";
 function rhex(num)
 {
@@ -19,10 +8,6 @@ function rhex(num)
   return str;
 }
 
-/*
- * Convert a string to a sequence of 16-word blocks, stored as an array.
- * Append padding bits and the length, as described in the MD5 standard.
- */
 function str2blks_MD5(str)
 {
   nblk = ((str.length + 8) >> 6) + 1;
@@ -35,10 +20,6 @@ function str2blks_MD5(str)
   return blks;
 }
 
-/*
- * Add integers, wrapping at 2^32. This uses 16-bit operations internally 
- * to work around bugs in some JS interpreters.
- */
 function add(x, y)
 {
   var lsw = (x & 0xFFFF) + (y & 0xFFFF);
@@ -46,18 +27,11 @@ function add(x, y)
   return (msw << 16) | (lsw & 0xFFFF);
 }
 
-/*
- * Bitwise rotate a 32-bit number to the left
- */
 function rol(num, cnt)
 {
   return (num << cnt) | (num >>> (32 - cnt));
 }
 
-/*
- * These functions implement the basic operation for each round of the
- * algorithm.
- */
 function cmn(q, a, b, x, s, t)
 {
   return add(rol(add(add(a, q), add(x, t)), s), b);
@@ -112,7 +86,7 @@ function calcMD5(str)
     a = ff(a, b, c, d, x[i+12], 7 ,  1804603682);
     d = ff(d, a, b, c, x[i+13], 12, -40341101);
     c = ff(c, d, a, b, x[i+14], 17, -1502002290);
-    b = ff(b, c, d, a, x[i+15], 22,  1236535329);    
+    b = ff(b, c, d, a, x[i+15], 22,  1236535329);
 
     a = gg(a, b, c, d, x[i+ 1], 5 , -165796510);
     d = gg(d, a, b, c, x[i+ 6], 9 , -1069501632);
@@ -130,7 +104,7 @@ function calcMD5(str)
     d = gg(d, a, b, c, x[i+ 2], 9 , -51403784);
     c = gg(c, d, a, b, x[i+ 7], 14,  1735328473);
     b = gg(b, c, d, a, x[i+12], 20, -1926607734);
-    
+
     a = hh(a, b, c, d, x[i+ 5], 4 , -378558);
     d = hh(d, a, b, c, x[i+ 8], 11, -2022574463);
     c = hh(c, d, a, b, x[i+11], 16,  1839030562);
@@ -172,4 +146,3 @@ function calcMD5(str)
   }
   return rhex(a) + rhex(b) + rhex(c) + rhex(d);
 }
- 

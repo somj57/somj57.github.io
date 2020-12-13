@@ -9,15 +9,13 @@ Links:😄🚀 <br>
 <a href="https://somj57.github.io/DrumKit">DrumKit Game</a><br>
 <a href="https://somj57.github.io/BackgroundGenerator">Background Generator</a><br>
 <a href="https://somj57.github.io/robofriends/">RoboFriends</a><br>
+<a href="https://somj57.github.io/Smart-brain/">Face Recogination</a><br>
+<a href="https://somj57.github.io/smart-brain-site/">Smart Brains</a><br>
 
-<!-- <a href="https://somj57.github.io/RoboFriend">RoboFriend</a> -->
 
 <hr>
 <a href="https://github.com/somj57/react-gh-pages">Complete Reference For Deploying React Apps on GitHub😁</a><br>
 <a href="https://somj57.github.io/react-gh-pages/">You Can See It Hear</a>
 <hr>
-
-
-<script data-ad-client="ca-pub-6635635894921097" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 

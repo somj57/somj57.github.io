@@ -1,4 +1,4 @@
-# Hosted Sites 🤘 ~
+# Hosted Sites 🤘 
 <hr><br>
 Links:😄🚀 <br>
 <hr>

@@ -3,6 +3,7 @@
 Important Links: 🚀. <br>
 <hr>
 <a href="https://somj57.pythonanywhere.com">Portfolio</a><br>
+<a href="https://www.linkedin.com/in/somj57/">LinkedIn</a><br>
 <a href="https://github.com/somj57">Github</a><br>
 <a href="https://leetcode.com/somj57/">LeetCode</a><br>
 <hr>

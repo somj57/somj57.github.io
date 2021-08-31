@@ -19,7 +19,9 @@ Projects 👇🏼<br>
 <a href="https://somj57.github.io/smart-brain-site/">Smart Brains</a><br>
 
 <hr>
+
 ### Published Paper's
+
 <a href="http://www.ijtrd.com/ViewFullText.aspx?Id=22769">Smart Brains: Face Mask Detector(Using Raspberry PI)</a><br>
 <hr>
 

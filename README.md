@@ -20,12 +20,11 @@ Projects 👇🏼<br>
 
 <hr>
 
-### Published Paper's
+Published Paper's 👇🏼
 
 <a href="http://www.ijtrd.com/ViewFullText.aspx?Id=22769">Smart Brains: Face Mask Detector(Using Raspberry PI)</a><br>
 <hr>
 
-<hr>
 <a href="https://github.com/somj57/react-gh-pages">Complete Reference For Deploying React Apps on GitHub😁</a><br>
 <a href="https://somj57.github.io/react-gh-pages/">You Can See It Hear</a>
 <hr>
